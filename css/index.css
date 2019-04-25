@@ -1,0 +1,10 @@
+/*css pour la mise en place générale de la page */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* css de la parallax */
+.parallax-window {
+  min-height: 25em;
+  background-color: transparent;
+}
