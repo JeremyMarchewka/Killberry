@@ -12,88 +12,105 @@
     <link rel="stylesheet" href="css/carte.css">
 </head>
 
-<body>
-  <h1>Nos Boissons</h1>
-  <div class="pression">
-    <h2>Bière blonde</h2>
-    <h2>Bière brune</h2>
-    <h2>Bière spéciale</h2>
-    <h2>Bière d'abbaye</h2>
-    <h2>Panaché</h2>
-  </div>
-  <div class="bchaude">
-    <h2>Expresso</h2>
-    <h2>Café grande tasse</h2>
-    <h2>Décaféiné</h2>
-    <h2>Café crème petit</h2>
-    <h2>Café crème grand</h2>
-    <h2>Chocolat</h2>
-    <h2>Thé/Infusion</h2>
-    <h2>Lait</h2>
-    <h2>Vin chaud</h2>
-    <h2>Café gourmand</h2>
-  </div>
-  <div class="bouteillebiere">
-    <h2>Bière blonde</h2>
-    <h2>Bière brune</h2>
-    <h2>Bière spéciale</h2>
-    <h2>Bière sans alcool</h2>
-    <h2>Bière d'abbaye</h2>
-  </div>
-  <div class="soft">
-    <h2>Cola</h2>
-    <h2>Limonade</h2>
-    <h2>Diabolo</h2>
-    <h2>Orangina</h2>
-    <h2>Schweppes</h2>
-    <h2>Perrier</h2>
-    <h2>Perrier avec sirop</h2>
-    <h2>Thé glacé</h2>
-    <h2>Jus de fruit (orange ...)</h2>
-    <h2>Fruits pressés</h2>
-  </div>
-  <div class="spiritueux">
-    <h2>Anisé</h2>
-    <h2>Martini</h2>
-    <h2>Porto</h2>
-    <h2>Kir</h2>
-    <h2>Suze</h2>
-    <h2>Vodka</h2>
-    <h2>Rhum</h2>
-    <h2>Whisky</h2>
-    <h2>Téquilla</h2>
-    <h2>Gin</h2>
-    <h2>Liqueur</h2>
-    <h2>Cognac</h2>
-    <h2>Armagnac</h2>
-    <h2>Calvados</h2>
-    <h2>Eau de vie</h2>
-    <h2>Liqueur de menthe</h2>
-  </div>
-  <div class="eaux">
-    <h2>Eau plate</h2>
-    <h2>Eau gazeuse</h2>
-    <h2>Eau avec sirop</h2>
-  </div>
-  <div class="vins">
-    <h2>Blanc</h2>
-    <h2>Blanc AOC</h2>
-    <h2>Rosé</h2>
-    <h2>Rosé AOC</h2>
-    <h2>Rouge</h2>
-    <h2>Rouge AOC</h2>
-    <h2>Champagne</h2>
-    <h2>Vin effervescent</h2>
-  </div>
-  <div class="nourriture">
-    <h2>Sandwich</h2>
-    <h2>Hot Dog</h2>
-    <h2>Croque-monsieur</h2>
-    <h2>Croque-madamme</h2>
-    <h2>Petit déjeuner</h2>
-    <h2>Chips</h2>
-    <h2>Saucissons</h2>
+<body class="carte">
+  <!-- Titre de la page -->
+  <h1 class="titreboissons">Nos Boissons</h1>
+  <!-- conteneur général des deux colonnes -->
+  <div class="superconteneur">
+    <!-- conteneur de la colonne de gauche -->
+    <div class="conteneurboissons">
+      <div id="divboissons" class="pression">
+        <h2>Nos Bières Pression</h2>
+        <h3>Bière blonde</h3>
+        <h3>Bière brune</h3>
+        <h3>Bière spéciale</h3>
+        <h3>Bière d'abbaye</h3>
+        <h3>Panaché</h3>
+      </div>
+      <div id="divboissons" class="bchaude">
+        <h2>Nos Boissons Chaudes</h2>
+        <h3>Expresso</h3>
+        <h3>Café grande tasse</h3>
+        <h3>Décaféiné</h3>
+        <h3>Café crème petit</h3>
+        <h3>Café crème grand</h3>
+        <h3>Chocolat</h3>
+        <h3>Thé/Infusion</h3>
+        <h3>Lait</h3>
+        <h3>Vin chaud</h3>
+        <h3>Café gourmand</h3>
+      </div>
+      <div id="divboissons" class="bouteillebiere">
+        <h2>Nos Bières en bouteille</h2>
+        <h3>Bière blonde</h3>
+        <h3>Bière brune</h3>
+        <h3>Bière spéciale</h3>
+        <h3>Bière sans alcool</h3>
+        <h3>Bière d'abbaye</h3>
+      </div>
+      <div id="divboissons" class="soft">
+        <h2>Nos Softs et Jus de fruits</h2>
+        <h3>Cola</h3>
+        <h3>Limonade</h3>
+        <h3>Diabolo</h3>
+        <h3>Orangina</h3>
+        <h3>Schweppes</h3>
+        <h3>Perrier</h3>
+        <h3>Perrier avec sirop</h3>
+        <h3>Thé glacé</h3>
+        <h3>Jus de fruit (orange ...)</h3>
+        <h3>Fruits pressés</h3>
+      </div>
+    </div>
+    <!-- conteneur de la colonne de droite -->
+    <div class="conteneurboissons">
+      <div id="divboissons" class="spiritueux">
+        <h2>Nos Spiritueux</h2>
+        <h3>Anisé</h3>
+        <h3>Martini</h3>
+        <h3>Porto</h3>
+        <h3>Kir</h3>
+        <h3>Suze</h3>
+        <h3>Vodka</h3>
+        <h3>Rhum</h3>
+        <h3>Whisky</h3>
+        <h3>Téquilla</h3>
+        <h3>Gin</h3>
+        <h3>Liqueur</h3>
+        <h3>Cognac</h3>
+        <h3>Armagnac</h3>
+        <h3>Calvados</h3>
+        <h3>Eau de vie</h3>
+        <h3>Liqueur de menthe</h3>
+      </div>
+      <div id="divboissons" class="eaux">
+        <h2>Nos eaux</h2>
+        <h3>Eau plate</h3>
+        <h3>Eau gazeuse</h3>
+        <h3>Eau avec sirop</h3>
+      </div>
+      <div id="divboissons" class="vins">
+        <h2>Nos Vins</h2>
+        <h3>Blanc</h3>
+        <h3>Blanc AOC</h3>
+        <h3>Rosé</h3>
+        <h3>Rosé AOC</h3>
+        <h3>Rouge</h3>
+        <h3>Rouge AOC</h3>
+        <h3>Champagne</h3>
+        <h3>Vin effervescent</h3>
+      </div>
+      <div id="divboissons" class="nourriture">
+        <h2>Notre petite restauration</h2>
+        <h3>Sandwich</h3>
+        <h3>Hot Dog</h3>
+        <h3>Croque-monsieur</h3>
+        <h3>Croque-madamme</h3>
+        <h3>Petit déjeuner</h3>
+        <h3>Chips</h3>
+        <h3>Saucissons</h3>
+      </div>
+    </div>
   </div>
 </body>
-
 </html>

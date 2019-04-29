@@ -1,0 +1,31 @@
+.carte {
+  background-color: #000;
+  color: #fff;
+}
+.titreboissons{
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 3em;
+}
+.superconteneur
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.conteneurboissons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#divboissons {
+  width: 80%;
+  margin: 0.5em;
+  padding: 1em;
+  border: 0.3em solid #fff;
+}
+#divboissons h2{
+  font-weight: bold;
+  padding: 0.5em;
+}
