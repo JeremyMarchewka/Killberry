@@ -2,6 +2,12 @@
   background-color: #000;
   color: #fff;
 }
+.enteteboisson {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .titreboissons{
   text-align: center;
   font-weight: bold;
