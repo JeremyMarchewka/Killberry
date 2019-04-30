@@ -7,6 +7,11 @@
   font-weight: bold;
   padding: 0.5em;
   font-size: 3em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
 }
 .superconteneur
 {
