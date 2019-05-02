@@ -2,6 +2,9 @@
   background-color: #000;
   color: #fff;
 }
+h3 {
+  line-height: 1.6em;
+}
 .enteteboisson {
   display: flex;
   flex-direction: row;
@@ -13,6 +16,14 @@
   font-weight: bold;
   padding: 0.5em;
   font-size: 3em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
+}
+.soustitreboisson {
+  text-align: center;
   color: #aa2b26;
   text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
   0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
@@ -35,6 +46,7 @@
   margin: 0.5em;
   padding: 1em;
   border: 0.3em solid #fff;
+  border-radius: 3px; 
 }
 #divboissons h2{
   font-weight: bold;
