@@ -7,86 +7,11 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: "Times New Roman", Times, serif;
-	
+	background-color: #030008;
 }
 
 
-/**************************************navbar*************************************/
 
-
-.container{
-	max-width: 100%;
-	margin: 0 auto;
-}
-.btn {
-  background-color: #cc3333;
-  border: none;
-  border-radius: .15em;
-  color: #fff;
-  cursor: pointer;
-  padding: .75em 1.5em;
-  font-size: 1em;
-}
-
-header{
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 99;
-	background-color: #cc3333;
-}
-.logo{
-	float:left;
-	width: 150px;
-	margin-left: 8px;
-	margin-top: 5px;
-}
-
-nav{
-	height: 70px;
-	line-height: 50px;
-	margin: 0px;
-	
-}
-.menu{
-	padding: 10px 20px 0 0;
-	float:right;
-	background-color: #cc3333;
-	margin: 0;
-}
-.menu li{
-	list-style-type: none;
-	float: left;
-}
-.menu li a{
-	text-decoration: none;
-	padding: 0 10px;
-	color:#ffe6e6;
-	font-size: 25px;
-}
-.menu li a:hover{
-	color:#1a0000;
-}
-span{
-	color: #1a0000;
-}
-
-
-label{
-	margin:0 30px 0 0;
-	font-size: 36px;
-	line-height: 70px;
-	display: none;
-	float: right;
-	width: 26px;
-	color:rgba(30,30,30, 1.0);
-	font-weight: 800;
-}
-#toggle{
-	display: none;
-}
 
 /**************************************slider*************************************/
 
@@ -94,10 +19,11 @@ label{
 .contenedor-slider {
   margin: auto;
   width: 100%;
+  max-height: 700px;
   position: relative;
   overflow: hidden;
-	margin-top: 70px;
-	margin-bottom: 20px;
+	margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .slider {
@@ -118,7 +44,6 @@ label{
 .btn-prev, .btn-next {
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -128,31 +53,39 @@ label{
   text-align: center;
   border-radius: 50%;
   font-family: monospace;
-  cursor: pointer;
+	cursor: pointer;
+	z-index: 50;
 }
 
 .btn-prev:hover, .btn-next:hover {
-  background: white;
+  color: white;
 }
 
 .btn-prev {
+	height: 10%;
+	width: 5%;
   left: 10px;
 }
 
 .btn-next {
+	height: 10%;
+	width: 5%;
   right: 10px;
 }
 
 .main_title{
-	position: absolute;
+  position: absolute;
 	width: 100%;
-	top: 30%;
+	top: 10em;
 	text-align: center;
 	z-index: 20;
 }
 
-.main_title a{
-	width:80%;
+.main_title img{
+  opacity: 0.8;
+		width: 80%;
+		height: auto;
+
 }
 
 /**************************************CAROUSEL*************************************/
@@ -170,7 +103,7 @@ label{
   overflow: hidden;
   padding: 8px;
   box-sizing: border-box;
-  border: 2px solid #999;
+
   box-shadow: 0 0 4px #000;
   margin: 0 auto;
   border-radius: 5px;
@@ -217,7 +150,7 @@ label{
 /**************************************PARALLAX*************************************/
 
 .parallax-window {
-	margin-top: 16%;
+	margin-top: 10em;
 	width: 100%;
   min-height: 15em;
   background: transparent;
@@ -229,21 +162,37 @@ label{
 .présentation{
 	display: flex;
 	flex-direction: row;
-	padding: 1em;
+	margin: 2em;
+	padding: 2em;
+  background-color: #030008;
+  border-radius: 3px;
 }
 
 
-.présentation img{
-	width: 50%;
+.pres_logo{
+
+		display: flex;
+		width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+.pres_gauche{
+  width: 100%;
+  min-height: 100%;
+  background-color: #eee;
+  padding: 2em;
+  border-radius: 5px;
 }
 
 .pres_droite{
 	height: auto;
-	padding-left: 1em;
+  background-color: #eee;
+  padding: 2em;
+  margin-left: 3em;
+  border-radius: 5px;
 }
-.pres_droite p{
-	margin-top: 6em;
-}
+
 
 /**************************************CAROUSEL2*************************************/
 
@@ -259,7 +208,6 @@ label{
   overflow: hidden;
   padding: 8px;
   box-sizing: border-box;
-  border: 2px solid #999;
   box-shadow: 0 0 4px #000;
   margin: 0 auto;
 	border-radius: 5px;
@@ -306,6 +254,30 @@ label{
 
 /**************************************FOOTER*************************************/
 
+
+
+#foot2{
+	width: 100%;
+	height: 80px;
+	margin-top: 170px;
+	background-color: #ae2a25;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.contact a{
+	margin: 15px;
+}
+
+.contact i:hover{
+	transform: scale(1.2);
+	color: #eee;
+  transition: all 0.4s ease-in-out;
+}
+
+/*
 .footer{
 	position: absolute;
 	bottom: 0;
@@ -313,65 +285,76 @@ label{
 	height: 20px;
 
 }
+/********************************** BACK TO TOP ***********************************/
+
+a#cRetour {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: #ae2a25;
+  position: fixed;
+  right: 20px;
+  opacity: 1;
+  z-index: 99999;
+  transition: all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+a#cRetour:before {
+  content: "\25b2";
+}
+
+a#cRetour:hover {
+  background: rgba(0, 0, 0, 1);
+  transition: all ease-in 0.2s;
+}
+
+a#cRetour.cInvisible {
+  bottom: -35px;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+}
+
+a#cRetour.cVisible {
+  bottom: 20px;
+  opacity: 1;
+}
 
 
 /**************************************MEDIA QUERIES*************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
 
 
-/*navbar responsive*/
-	label{
-		display: block;
-        cursor: pointer;
 
-		
+}
+
+
+@media only screen and (max-width: 720px) {
+	.présentation{
+		flex-wrap: wrap;
+		justify-content: center;
+  }
+  .pres_gauche{
+    padding: 1em;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .pres_droite{
+    margin-left: 0;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
+  }
+
+	.pres_droite p{
+		margin-top: 0;
 	}
-	label:before{
-        content: '\2630';
-        font-size: 36px;
-        
-	}
-	nav{
-		height: 70px;
-		
 
-	}
-	.menu{
-		float:none;
-		clear: both;
-		text-align: center;
-		
-		width: 100%;
-		height: 0vh;
-		
-		display:block;
-		overflow: hidden;
-		padding: 0;
-		position: sticky;
-		top:0;
-		-webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
-    	transition: margin-left 0.5s, height 0.5s, width 0.5s, border-radius 0.5s;
-
-    		}
-	.menu li{
-		float: none;
-		margin: 0;
-	}
-	.menu li a{
-		display: block;
-		margin:0;
-	}
-	#toggle:checked ~ .menu{
-		
-		height: 250px;
-		width: 100%;
-		
-
-
-
-	}
-	#toggle:checked + label:before {
-  		content: '\2716';
-	}
 }
