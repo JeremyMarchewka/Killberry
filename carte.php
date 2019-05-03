@@ -14,6 +14,7 @@
 </head>
 
 <body class="carte">
+  <?php include "navbar.php"?>
   <!-- Titre de la page -->
   <div class="enteteboisson">
   <img src="img/petitlogo.png" alt="logo du Kilberry"/>
@@ -124,5 +125,6 @@
       </div>
     </div>
   </div>
+  <?php include "foot_top.php"?>
 </body>
 </html>

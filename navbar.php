@@ -4,7 +4,7 @@
   <header id="header">
     <div class="container">
         <nav id="nav-bar">
-            <img class="logo"  src="img/logo3.png" alt="" id="header-img">
+            <img class="logo"  src="img/logo3.png" alt="logo kilberry" id="header-img">
             <input type="checkbox" id="toggle">
             <label for="toggle"></label>
             <ul class="menu">

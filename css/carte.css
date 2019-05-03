@@ -10,6 +10,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 5em; 
 }
 .titreboissons{
   text-align: center;
