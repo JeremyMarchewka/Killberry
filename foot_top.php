@@ -1,5 +1,5 @@
 <!----------------------------------------FOOTER--------------------------------------->
-<link rel="stylesheet" href="css/navfoot.css">
+<link rel="stylesheet" href="css/foot_top.css">
 <footer>
     <section id="foot2">
         <div class="contact">
