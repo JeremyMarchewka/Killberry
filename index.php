@@ -13,7 +13,6 @@
 </head>
 
 <body id="haut">
-
 <?php include('navbar.php');?>
 
 <div class="main_title zoomIn animated"><a><img src="img/logo3.png"></a></div>
