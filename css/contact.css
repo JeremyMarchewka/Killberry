@@ -1,0 +1,51 @@
+body {
+background-color: #000;
+color: #fff;
+}
+.entetecontact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+.titrecontact {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 3em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
+}
+.form {
+  text-align: center;
+  padding-top: 6em;
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.zonetext {
+  height: 15em;
+  color : #000;
+  margin-left: 2em;
+}
+.name, .mail, .object {
+width: 10em;
+color : #000;
+}
+.name,.mail, .object, .zonetext, .send {
+  background-color: #fff;
+  padding: 0.5em;
+}
+.mail, .object, .send, .textarea {
+  margin-top: 1em;
+}
+.send {
+  color: #aa2b26;
+  font-family: 'Lalezar', cursive;
+}

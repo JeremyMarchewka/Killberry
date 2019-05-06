@@ -10,7 +10,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 5em; 
+  padding-top: 5em;
 }
 .titreboissons{
   text-align: center;
@@ -33,11 +33,18 @@ h3 {
 }
 .superconteneur
 {
-  background-image: url(../img/bar.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
 }
 .conteneurboissons {
   display: flex;

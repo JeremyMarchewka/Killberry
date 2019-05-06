@@ -14,7 +14,7 @@
 </head>
 
 <body class="carte">
-  <?php include "navbar.php"?>
+  <?php include "navbar.php";?>
   <!-- Titre de la page -->
   <div class="enteteboisson">
   <img src="img/petitlogo.png" alt="logo du Kilberry"/>
@@ -22,6 +22,9 @@
   </div>
   <!-- conteneur général des deux colonnes -->
   <div class="superconteneur">
+    <video autoplay loop poster="polina.jpg" id="bgvid">
+      <source src="bulle.mp4" type="video/mp4">
+    </video>
     <!-- conteneur de la colonne de gauche -->
     <div class="conteneurboissons">
       <div id="divboissons" class="pression">

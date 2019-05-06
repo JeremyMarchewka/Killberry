@@ -1,75 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <title>Kilberry</title>
 
-    <title>Kilberry</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
-<body>
+<body id="haut">
 
-    <!----------------------------------------NAVBAR--------------------------------------->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="img/logo.jpg">
-        </div>
-        <div class="menu_droite">
-            <a class="liens" href="boissons.html">Boissons </a>
-            <a class="liens" href="news.html">News </a>
-            <a class="liens" href="photos.html">Photos </a>
-            <a class="liens" href="contact.html">COontact </a>
-        </div>
-    </nav>
+<?php include('navbar.php');?>
 
-    <!----------------------------------------HEADER--------------------------------------->
+<div class="main_title zoomIn animated"><a><img src="img/logo3.png"></a></div>
+  <div id="contenedor-slider" class="contenedor-slider">
+ <div id="slider" class="slider">
+    <section class="slider__section"><img src="img/1.jpg" class="slider__img"></section>
+    <section class="slider__section"><img src="img/4.jpg" class="slider__img"></section>
+    <section class="slider__section"><img src="img/3.jpg" class="slider__img"></section>
+    <section class="slider__section"><img src="img/2.jpg" class="slider__img"></section>
+  </div>
+  <div id="btn-prev" class="btn-prev">&#60;</div>
+  <div id="btn-next" class="btn-next">&#62;</div>
+ </div>
 
-    <header class="header">
 
-    </header>
 
-    <!----------------------------------------NEWS--------------------------------------->
+ <ul id="content-slider" class="content-slider">
+  <li>
+  <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Félicitations ô combien chaleureuses à ce podium renouvelé de notre tournoi de fléchettes au <a href="https://twitter.com/KilberryPub?ref_src=twsrc%5Etfw">@KilberryPub</a> : à confirmer lors du prochain ヅ <a href="https://t.co/VSZTvn78PY">pic.twitter.com/VSZTvn78PY</a></p>&mdash; Kilberry (@KilberryPub) <a href="https://twitter.com/KilberryPub/status/1121005622298804226?ref_src=twsrc%5Etfw">24 avril 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <div class="news">
+  </li>
+  <li>
+  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flekilberry%2Fposts%2F3201210299905300&width=370&show_text=true&height=592&appId" width="370" height="592" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </li>
+  <li>
+  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flekilberry%2Fposts%2F3075413805818284&width=370&show_text=true&height=413&appId" width="370" height="413" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </li>
+  <li>
+  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flekilberry%2Fposts%2F3179254368767560&width=370&show_text=true&height=415&appId" width="370" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </li>
+  <li>
+  <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Stimulante rencontre entre Barcelone et l’Atlético Madrid, diffusée au <a href="https://twitter.com/KilberryPub?ref_src=twsrc%5Etfw">@KilberryPub</a> ce soir à 20h45 <a href="https://t.co/ucwj7ECZkw">pic.twitter.com/ucwj7ECZkw</a></p>&mdash; Kilberry (@KilberryPub) <a href="https://twitter.com/KilberryPub/status/1114478118859939845?ref_src=twsrc%5Etfw">6 avril 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+  </li>
+  <li>
+  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flekilberry%2Fposts%2F3251194964906833&width=370&show_text=true&height=642&appId" width="370" height="642" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </li>
+</ul>
+
+
+
+<!----------------------------------------PARALLAX--------------------------------------->
+
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/photokil.jpg"></div>
+
+<!----------------------------------------PRESENTATION--------------------------------------->
+
+<div class="présentation">
+    <div class="pres_gauche">
+        <img src="img/logo.png" class="pres_logo">
     </div>
-
-    <!----------------------------------------PARALLAX--------------------------------------->
-
-    <div class="parallax">
-
+    <div class="pres_droite">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Assumenda aliquid commodi est, natus architecto ducimus fugit, enim eius, corrupti cupiditate veritatis sed harum saepe corporis veniam placeat magnam cumque quam.</p>
     </div>
+</div>
 
-    <!----------------------------------------PRESENTATION--------------------------------------->
+<!----------------------------------------CAROUSEL2--------------------------------------->
 
-    <div class="présentation">
-        <div class="pres_gauche">
-
-        </div>
-        <div class="pres_droite">
-
-        </div>
+<div class="carousel">
+    <div class="holder">
+        <img id="img_carou" src="img/a.png" alt="" />
+        <img id="img_carou" src="img/b.png" alt="" />
+        <img id="img_carou" src="img/c.png" alt="" />
+        <img id="img_carou" src="img/d.png" alt="" />
+        <img id="img_carou" src="img/e.png" alt="" />
+        <img id="img_carou" src="img/f.png" alt="" />
+        <img id="img_carou" src="img/g.png" alt="" />
+      <img id="img_carou" src="img/h.png" alt="" />
+      <img id="img_carou" src="img/i.png" alt="" />
+      <img id="img_carou" src="img/j.png" alt="" />
+      <img id="img_carou" src="img/k.png" alt="" />
+      <img id="img_carou" src="img/a.png" alt="" />
+      <img id="img_carou" src="img/b.png" alt="" />
+      <img id="img_carou" src="img/c.png" alt="" />
+      <img id="img_carou" src="img/d.png" alt="" />
     </div>
+  </div>
 
-    <!----------------------------------------FOOTER--------------------------------------->
+  <?php include('foot_top.php');?>
 
-    <footer class="footer">
-
-    </footer>
-
-    <!----------------------------------------SCRIPTS--------------------------------------->
-
-
-    <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
-        integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-
+<!----------------------------------------SCRIPTS--------------------------------------->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js'></script>
+<script  src="js/index.js"></script>
+<script src="js/parallax.min.js"></script>
 </body>
 
 </html>
