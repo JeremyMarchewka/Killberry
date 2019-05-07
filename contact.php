@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 
-<body>
+<body id="haut">
   <?php include 'gestion-form-contact.php';?>
   <?php include('navbar.php');?>
   <div class="blockcontact">
@@ -29,7 +29,7 @@
             <input type="text"  name="object" required placeholder="Objet de votre demande" class="object"><br/>
           </div>
           <div class ="right">
-            <textarea name="message" rows="auto" cols="67%" class="message"></textarea></p><br/>
+            <textarea name="message" rows="auto" cols="70em" class="message"></textarea></p><br/>
             <button type="submit" class="send" name="envoi">Envoyer</button>
           </div>
         </div>

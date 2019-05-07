@@ -3,8 +3,7 @@ background-color: #000;
 color: #fff;
 }
 .blockcontact {
-  min-height: 61vh;
-  margin-top: 7em;
+  margin-top: 8em;
   margin-left: 2em;
   margin-right: 2em;
   border: 0.5em solid #aa2b26;
@@ -30,6 +29,7 @@ color: #fff;
 .form {
   text-align: center;
   padding-top: 6em;
+  padding-bottom: 6em;
   display: flex;
   flex: 1 1;
   flex-wrap: wrap;
