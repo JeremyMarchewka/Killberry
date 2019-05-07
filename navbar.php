@@ -8,10 +8,10 @@
             <input type="checkbox" id="toggle">
             <label for="toggle"></label>
             <ul class="menu">
-                <li><a class="nav-link" href="index.php"><span>Home</span></a></li>
-                <li><a class="nav-link" href="contact.php">Contact Us</a></li>
-                <li><a class="nav-link" href="#media">Media</a></li>
-                <li><a class="nav-link" href="#promo">Promo</a></li>
+                <li><a class="nav-link" href="index.php"><span>Accueil</span></a></li>
+                <li><a class="nav-link" href="carte.php">Boissons</a></li>
+                <li><a class="nav-link" href="#promo">Gallerie</a></li>
+                <li><a class="nav-link" href="contact.php">Contact</a></li>
             </ul>
         </nav>
         </div>
