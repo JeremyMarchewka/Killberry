@@ -56,7 +56,7 @@ $(document).ready(function() {
 	  speed: 600,
 	  pause: 4000,
 	  keyPress: true,
-	  mode: 'slide', 
+	  mode: 'slide',
 	  responsive: [{
 		breakpoint: 767,
 		settings: {
@@ -72,7 +72,7 @@ $(document).ready(function() {
 		}
 	  }]
 	});
- 
+
   });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -95,4 +95,9 @@ function closeModal() {
 	document.getElementById("modal").style.top = "-780px";
 }
 
-
+// Pop-up Modale
+/* pour refermer la pop up */
+document.getElementById('close').addEventListener('click',
+function() {
+  document.querySelector('.pop-up').style.display = 'none';
+});

@@ -95,6 +95,17 @@
     </div>
   </div>
 
+<!---------------------------------------- Partie Modale--------------------------------------->
+<div class="pop-up">
+  <div class="close">
+    <div class="pop">
+      <p class="attention">Attention la vente d'alcool est interdite aux mineurs de moins de 18ans.</p>
+      <p>Confirmez vous avoir plus de 18 ans ?</p>
+      <button id="close">oui</button>
+      <button id="other" onclick="document.location.href='https://www.google.com/webhp?hl=fr&sa=X&ved=0ahUKEwiiqtPY0oniAhUMNBQKHVnjA68QPAgH'">non</button>
+  </div>
+  </div>
+</div>
   <?php include('foot_top.php');?>
 
 <!----------------------------------------SCRIPTS--------------------------------------->

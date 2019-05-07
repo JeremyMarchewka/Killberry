@@ -11,8 +11,34 @@ body{
 }
 
 
+/**************************************partie modale*************************************/
+.pop-up{
+		position: absolute;
+		display: block;
+		text-align: center;
+		top: 0em;
+		width: 100%;
+	  min-height: 100vh;
+	  background-color: rgba(0, 0, 0, 0.9);
+		z-index: 500;
+}
+.pop {
+		width: 30%;
+		height: 30em;
+		color: #000;
+		background-color: #fff;
+		margin: 10em auto;
+		border-radius: 1.5em;
+}
+.attention {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 2em 1em 1em 1em;
+}
+.close {
 
-
+}
 /**************************************slider*************************************/
 
 
