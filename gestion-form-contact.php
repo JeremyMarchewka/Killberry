@@ -6,7 +6,7 @@ $copie = 'non';
 /* Afficher un message de confirmation à l'envoi du mail */
 $message_envoye = "Votre message a bien été envoyé !";
 $message_non_envoye = "Echec de l'envoi, merci de ré-essayer !";
-/* En cas de formulaire incomplet */
+/* En cas de formulaire non envoyé */
 $message_erreur_formulaire = "Echec de l'envoi veuillez essayer <a href=\"contact.php\">
 une nouvelle fois</a>.";
 $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis
@@ -25,7 +25,7 @@ if (!isset($_POST['envoi']))
     if (1 === get_magic_quotes_gpc()){
       $text = stripslashes($text);
     }
-      $text = n12br ($text);
+      //$text = n12br ($text);
       return $text;
   };
   /* Vérifier la syntaxe d'un email */
@@ -36,16 +36,16 @@ if (!isset($_POST['envoi']))
   };
   /* Formulaire envoyé, on récupère tous les champs*/
   $nom = (isset($_POST['name'])) ? Rec($_POST['name']) : '';
-  $email = (isset($_POST['mail'])) ? Rec($_POST['mail']) : '';
+  $email = (isset($_POST['email'])) ? Rec($_POST['email']) : '';
   $objet = (isset($_POST['object'])) ? Rec($_POST['object']) : '';
-  $message = (isset($_POST['zonetext'])) ? Rec($_POST['zonetext']) : '';
+  $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
   /* Puis on vérifie les variables et l'email */
   $email = (IsEmail($email)) ? $email : ''; //soit l'email est vide ou erroné, soit il vaut l'email entré
   if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
   {
     /* Les 4 variables sont remplies, on génère puis on envoie le mail */
     $headers = 'MIME-Version: 1.0'."\r\n";
-    $headers .= 'From'.$nom.'<'.$email.'>'."\r\n".
+    $headers = 'From'.$nom.'<'.$email.'>'."\r\n".
                     'Reply-To:'.$email."\r\n" .
                     'Content-Type : text/plain; charset="utf-8"; DelSp="Yes"; format=flowed'."\r\n" .
                     'Content-Disposition: inline'. "\r\n" .

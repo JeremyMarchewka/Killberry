@@ -21,14 +21,13 @@
   </div>
   <form class="form" method="post" action="gestion-form-contact.php" >
           <div class="left">
-            <p><label for="name"></label><input type="text" name="name" required placeholder="NOM et prénom"></p><br/>
-            <p><label for="email"></label><input type="email" name="mail" required placeholder="Adresse email"></p><br/>
-            <p><label for="object"></label><input type="text"  name="object" required placeholder="Objet de votre demande"></p><br/>
+            <input type="text" name="name" required placeholder="NOM et prénom"><br/>
+            <input type="email" name="email" required placeholder="Adresse email"><br/>
+            <input type="text"  name="object" required placeholder="Objet de votre demande"><br/>
           </div>
           <div class ="right">
-            <p><label for="message"></label><textarea for ="message" id="demande" name="votre-demande" rows="auto" cols="67%">
-            </textarea></p><br/>
-            <button type="submit" class="send">Envoyer</button>
+            <textarea id="demande" name="message" rows="auto" cols="67%"></textarea></p><br/>
+            <button type="submit" class="send" name="envoi">Envoyer</button>
           </div>
   </form>
   <?php include('foot_top.php');?>
