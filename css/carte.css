@@ -25,6 +25,7 @@ h3 {
 }
 .soustitreboisson {
   text-align: center;
+  font-size: 1.8em;
   color: #aa2b26;
   text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
   0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
@@ -33,34 +34,40 @@ h3 {
 }
 .superconteneur
 {
-  
-  background-repeat: no-repeat;
-  background-size: cover;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 2;
+  width: 100%;
 }
-video#bgvid {
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(polina.jpg) no-repeat;
-  background-size: cover;
-}
-.conteneurboissons {
+.conteneurboisson {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 #divboissons {
   background-color: #000;
-  width: 80%;
-  margin: 0.5em;
+  width: 92%;
+  height: 100%;
+  margin: 0.3em;
   padding: 1em;
   border: 0.3em solid #fff;
-  border-radius: 3px;
+  border-radius: 1em;
+  z-index: 5;
 }
 #divboissons h2{
   font-weight: bold;
   padding: 0.5em;
+}
+#divboissons2 {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: transparent;
+  width: 75%;
+  border: 0.3em solid #aa2b26;
+  border-radius: 1em;
+  z-index: 0;
+}
+@media (max-width: 900px){
+  .conteneurboisson {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

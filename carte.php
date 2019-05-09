@@ -24,11 +24,9 @@
   </div>
   <!-- conteneur général des deux colonnes -->
   <div class="superconteneur">
-    <video autoplay loop poster="polina.jpg" id="bgvid">
-      <source src="bulle.mp4" type="video/mp4">
-    </video>
     <!-- conteneur de la colonne de gauche -->
-    <div class="conteneurboissons">
+      <div class="conteneurboisson">
+      <div id="divboissons2" class="pression">
       <div id="divboissons" class="pression">
         <h2 class="soustitreboisson">Nos Bières Pression</h2>
         <hr/>
@@ -38,6 +36,8 @@
         <h3>Bière d'abbaye</h3>
         <h3>Panaché</h3>
       </div>
+    </div>
+      <div id="divboissons2" class="bchaude">
       <div id="divboissons" class="bchaude">
         <h2 class="soustitreboisson">Nos Boissons Chaudes</h2>
         <hr/>
@@ -52,6 +52,8 @@
         <h3>Vin chaud</h3>
         <h3>Café gourmand</h3>
       </div>
+      </div>
+      <div id="divboissons2" class="bouteillebiere">
       <div id="divboissons" class="bouteillebiere">
         <h2 class="soustitreboisson">Nos Bières en bouteille</h2>
         <hr/>
@@ -61,6 +63,8 @@
         <h3>Bière sans alcool</h3>
         <h3>Bière d'abbaye</h3>
       </div>
+      </div>
+      <div id="divboissons2" class="soft">
       <div id="divboissons" class="soft">
         <h2 class="soustitreboisson">Nos Softs et Jus de fruits</h2>
         <hr/>
@@ -75,9 +79,10 @@
         <h3>Jus de fruit (orange ...)</h3>
         <h3>Fruits pressés</h3>
       </div>
-    </div>
-    <!-- conteneur de la colonne de droite -->
-    <div class="conteneurboissons">
+      </div>
+    </div> <!-- Fin du conteneur de la colonne de gauche -->
+    <div class="conteneurboisson">
+      <div id="divboissons2" class="spiritueux">
       <div id="divboissons" class="spiritueux">
         <h2 class="soustitreboisson">Nos Spiritueux</h2>
         <hr/>
@@ -98,6 +103,8 @@
         <h3>Eau de vie</h3>
         <h3>Liqueur de menthe</h3>
       </div>
+      </div>
+      <div id="divboissons2" class="eaux">
       <div id="divboissons" class="eaux">
         <h2 class="soustitreboisson">Nos eaux</h2>
         <hr/>
@@ -105,6 +112,8 @@
         <h3>Eau gazeuse</h3>
         <h3>Eau avec sirop</h3>
       </div>
+      </div>
+      <div id="divboissons2" class="vins">
       <div id="divboissons" class="vins">
         <h2 class="soustitreboisson">Nos Vins</h2>
         <hr/>
@@ -117,6 +126,8 @@
         <h3>Champagne</h3>
         <h3>Vin effervescent</h3>
       </div>
+      </div>
+      <div id="divboissons2" class="nourriture">
       <div id="divboissons" class="nourriture">
         <h2 class="soustitreboisson">Notre petite restauration</h2>
         <hr/>
@@ -128,8 +139,9 @@
         <h3>Chips</h3>
         <h3>Saucissons</h3>
       </div>
-    </div>
-  </div>
+      </div>
+    </div> <!-- Fin du conteneur colonne droite -->
+  </div> <!-- Fin du conteneur normal -->
   <?php include "foot_top.php"?>
 </body>
 </html>
