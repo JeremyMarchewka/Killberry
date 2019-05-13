@@ -30,54 +30,144 @@
       <div id="divboissons" class="pression">
         <h2 class="soustitreboisson">Nos Bières Pression</h2>
         <hr/>
-        <h3>Bière blonde</h3>
-        <h3>Bière brune</h3>
-        <h3>Bière spéciale</h3>
-        <h3>Bière d'abbaye</h3>
-        <h3>Panaché</h3>
+        <div class="itemboisson">
+          <h3>Bière blonde</h3>
+          <p>3.40euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière brune</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière spéciale</h3>
+          <p>4.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière d'abbaye</h3>
+          <p>4.60euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Panaché</h3>
+          <p>2.50euros</p>
+        </div>
       </div>
     </div>
       <div id="divboissons2" class="bchaude">
       <div id="divboissons" class="bchaude">
         <h2 class="soustitreboisson">Nos Boissons Chaudes</h2>
         <hr/>
-        <h3>Expresso</h3>
-        <h3>Café grande tasse</h3>
-        <h3>Décaféiné</h3>
-        <h3>Café crème petit</h3>
-        <h3>Café crème grand</h3>
-        <h3>Chocolat</h3>
-        <h3>Thé/Infusion</h3>
-        <h3>Lait</h3>
-        <h3>Vin chaud</h3>
-        <h3>Café gourmand</h3>
+        <div class="itemboisson">
+          <h3>Expresso</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Café grande tasse</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Décaféiné</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Café crème petit</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Café crème grand</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Chocolat</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Thé/Infusion</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Lait</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Vin chaud</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Café gourmand</h3>
+          <p>à préciser</p>
+        </div>
       </div>
       </div>
       <div id="divboissons2" class="bouteillebiere">
       <div id="divboissons" class="bouteillebiere">
         <h2 class="soustitreboisson">Nos Bières en bouteille</h2>
         <hr/>
-        <h3>Bière blonde</h3>
-        <h3>Bière brune</h3>
-        <h3>Bière spéciale</h3>
-        <h3>Bière sans alcool</h3>
-        <h3>Bière d'abbaye</h3>
+        <div class="itemboisson">
+          <h3>Bière blonde</h3>
+          <p>5.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière brune</h3>
+          <p>7euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière spéciale</h3>
+          <p>7euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière sans alcool</h3>
+          <p>5.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Bière d'abbaye</h3>
+          <p>à préciser</p>
+        </div>
       </div>
       </div>
       <div id="divboissons2" class="soft">
       <div id="divboissons" class="soft">
         <h2 class="soustitreboisson">Nos Softs et Jus de fruits</h2>
         <hr/>
-        <h3>Cola</h3>
-        <h3>Limonade</h3>
-        <h3>Diabolo</h3>
-        <h3>Orangina</h3>
-        <h3>Schweppes</h3>
-        <h3>Perrier</h3>
-        <h3>Perrier avec sirop</h3>
-        <h3>Thé glacé</h3>
-        <h3>Jus de fruit (orange ...)</h3>
-        <h3>Fruits pressés</h3>
+        <div class="itemboisson">
+          <h3>Cola</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Limonade</h3>
+          <p>2.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Diabolo</h3>
+          <p>3euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Orangina</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Schweppes</h3>
+          <p>3euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Perrier</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Perrier avec sirop</h3>
+          <p>3.70</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Thé glacé</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Jus de fruit (orange ...)</h3>
+          <p>3euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Fruits pressés</h3>
+          <p>à préciser</p>
+        </div>
       </div>
       </div>
     </div> <!-- Fin du conteneur de la colonne de gauche -->
@@ -86,58 +176,161 @@
       <div id="divboissons" class="spiritueux">
         <h2 class="soustitreboisson">Nos Spiritueux</h2>
         <hr/>
-        <h3>Anisé</h3>
-        <h3>Martini</h3>
-        <h3>Porto</h3>
-        <h3>Kir</h3>
-        <h3>Suze</h3>
-        <h3>Vodka</h3>
-        <h3>Rhum</h3>
-        <h3>Whisky</h3>
-        <h3>Téquilla</h3>
-        <h3>Gin</h3>
-        <h3>Liqueur</h3>
-        <h3>Cognac</h3>
-        <h3>Armagnac</h3>
-        <h3>Calvados</h3>
-        <h3>Eau de vie</h3>
-        <h3>Liqueur de menthe</h3>
+        <div class="itemboisson">
+          <h3>Anisé</h3>
+          <p>2.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Martini</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Porto</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Kir</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Suze</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Vodka</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Rhum</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Whisky</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Téquilla</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Gin</h3>
+          <p>6euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Liqueur</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Cognac</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Armagnac</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Calvados</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Eau de vie</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Liqueur de menthe</h3>
+          <p>6euros</p>
+        </div>
       </div>
       </div>
       <div id="divboissons2" class="eaux">
       <div id="divboissons" class="eaux">
         <h2 class="soustitreboisson">Nos eaux</h2>
         <hr/>
-        <h3>Eau plate</h3>
-        <h3>Eau gazeuse</h3>
-        <h3>Eau avec sirop</h3>
+        <div class="itemboisson">
+          <h3>Eau plate</h3>
+          <p>3euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Eau gazeuse</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Eau avec sirop</h3>
+          <p>à préciser</p>
+        </div>
       </div>
       </div>
       <div id="divboissons2" class="vins">
       <div id="divboissons" class="vins">
         <h2 class="soustitreboisson">Nos Vins</h2>
         <hr/>
-        <h3>Blanc</h3>
-        <h3>Blanc AOC</h3>
-        <h3>Rosé</h3>
-        <h3>Rosé AOC</h3>
-        <h3>Rouge</h3>
-        <h3>Rouge AOC</h3>
-        <h3>Champagne</h3>
-        <h3>Vin effervescent</h3>
+        <div class="itemboisson">
+          <h3>Blanc</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Blanc AOC</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Rosé</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Rosé AOC</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Rouge</h3>
+          <p>3.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Rouge AOC</h3>
+          <p>à préciser</p>
+
+        </div>
+        <div class="itemboisson">
+          <h3>Champagne</h3>
+          <p>7euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Vin effervescent</h3>
+          <p>à préciser</p>
+        </div>
       </div>
       </div>
       <div id="divboissons2" class="nourriture">
       <div id="divboissons" class="nourriture">
         <h2 class="soustitreboisson">Notre petite restauration</h2>
         <hr/>
-        <h3>Sandwich</h3>
-        <h3>Hot Dog</h3>
-        <h3>Croque-monsieur</h3>
-        <h3>Croque-madamme</h3>
-        <h3>Petit déjeuner</h3>
-        <h3>Chips</h3>
-        <h3>Saucissons</h3>
+        <div class="itemboisson">
+          <h3>Sandwich</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Hot Dog</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Croque-monsieur</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Croque-madamme</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Petit déjeuner</h3>
+          <p>à préciser</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Chips</h3>
+          <p>1.50euros</p>
+        </div>
+        <div class="itemboisson">
+          <h3>Saucissons</h3>
+          <p>5euros</p>
+        </div>
       </div>
       </div>
     </div> <!-- Fin du conteneur colonne droite -->
