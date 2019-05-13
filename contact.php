@@ -23,6 +23,7 @@
     <h1 class="titrecontact">Nous contacter<h1>
   </div>
   <form class="form" method="post" action="gestion-form-contact.php" >
+    <img src="img/k.jpg" alt="décor kilberry" class="imgk"/>
           <div class="left">
             <input type="text" name="name" required placeholder="NOM et prénom" class="name"><br/>
             <input type="email" name="email" required placeholder="Adresse email" class="email"><br/>
@@ -32,8 +33,10 @@
             <textarea name="message" rows="auto" cols="70em" class="message"></textarea></p><br/>
             <button type="submit" class="send" name="envoi">Envoyer</button>
           </div>
-        </div>
+    <img src="img/k.jpg" alt="décor kilberry" class="imgk" />
+    </div>
   </form>
+</div>
   <?php include('foot_top.php');?>
   <!----------------------------------------SCRIPTS--------------------------------------->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>

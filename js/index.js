@@ -100,4 +100,5 @@ function closeModal() {
 document.getElementById('close').addEventListener('click',
 function() {
   document.querySelector('.pop-up').style.display = 'none';
+	document.querySelector('body').style.overflow = 'auto';
 });
